@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/internal/async_hooks.js",
+                "<node_internals>/internal/inspector_async_hook.js",
+                "<node_internals>/**/*.js",
+                "<node_internals>/**",
+                "**async_hooks**"
+            ],
+            "program": "${workspaceFolder}\\src\\index.js",
+            
+            "args": [
+                "C:\\data\\f",
+                "F:\\"
+            ],
+        }
+    ]
+}
